@@ -1,9 +1,9 @@
-:root{
-    --primary-color:#A82c48;
-    --secondary-color:#43121d;
-    --white-color:#fff;
-    --text-color:#555;
-    
+:root {
+  --primary-color: #16A34A;   /* Main Green */
+  --secondary-color: #14532D; /* Dark Green */
+  --light-green: #DCFCE7;     /* Light Background Green */
+  --white-color: #FFFFFF;
+  --text-color: #1F2937;      /* Dark Gray for text */
 }
 .primary-color{
     color:var(--primary-color)
