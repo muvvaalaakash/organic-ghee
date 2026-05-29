@@ -52,4 +52,4 @@ jobs:
           app-name: 'organic-app-service'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FF23AF562B6D4E0BAD0580F58225301B }}
+          publish-profile: ${{ secrets.AZURE_WEB_APP_SERVICE}}
