@@ -50,6 +50,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'app-blue-ghee-demo'
-          slot-name: 'staging'
+          slot-name: 'green'
           package: .
-          publish-profile: ${{ secrets.AZURE_WEB_APP_SERVICE}}
+          publish-profile: ${{ secrets.Green}}
